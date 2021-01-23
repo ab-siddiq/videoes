@@ -23,7 +23,7 @@ hr.line {
     background-color: #B02A30;
     opacity: 100%
 }
-.videoes{padding: 50px 0;}
+.videoes{padding: 50px 0;box-sizing: border-box;}
 .card-body-height{
     min-height: 150px;
     padding: 30px 20px;
@@ -34,5 +34,13 @@ hr.line {
 .videoes .card{border: none;}
 .videoes.card-img-top{border-radius: 10px;}
 .custom-card-title{
-    font-weight: bolder;
-}
+    font-weight: bolder;}
+/* }
+.videoes.card-img-top {width: 100%; box-sizing: border-box;}
+ img{transition: transform .2s;}
+img:hover{
+    transform: scale(1.1);
+} */
+.videoes .card{overflow: hidden;}
+.videoes .card img{transition: transform .2s; transition: .3s ease-in-out;}
+.videoes .card img:hover{transform: scalex(1.1); box-sizing: border-box; position: relative;}
