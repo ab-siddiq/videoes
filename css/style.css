@@ -1,0 +1,38 @@
+.top-header {
+    height: 200px;
+    width: 100%;
+    background-image: url('../images/header-inside-curve.svg');
+    background-size: cover;
+    background-position: bottom;
+
+}
+hr.line-2 {
+
+    width: 80px;
+    height: 4px;
+    background-color: #B02A30;
+    opacity: 100%;
+    text-align: center;
+    margin: auto;
+
+}
+
+hr.line {
+    width: 80px;
+    height: 4px;
+    background-color: #B02A30;
+    opacity: 100%
+}
+.videoes{padding: 50px 0;}
+.card-body-height{
+    min-height: 150px;
+    padding: 30px 20px;
+    border: none;
+   box-shadow: 5px 5px 40px gray;
+   border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+}
+.videoes .card{border: none;}
+.videoes.card-img-top{border-radius: 10px;}
+.custom-card-title{
+    font-weight: bolder;
+}
