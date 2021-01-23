@@ -1,12 +1,5 @@
-.top-header {
-    height: 200px;
-    width: 100%;
-    background-image: url('../images/header-inside-curve.svg');
-    background-size: cover;
-    background-position: bottom;
 
-}
-hr.line-2 {
+.videoes hr.line-2 {
 
     width: 80px;
     height: 4px;
@@ -17,14 +10,14 @@ hr.line-2 {
 
 }
 
-hr.line {
+.videoes hr.line {
     width: 80px;
     height: 4px;
     background-color: #B02A30;
     opacity: 100%
 }
-.videoes{padding: 50px 0;box-sizing: border-box;}
-.card-body-height{
+.videoes{box-sizing: border-box;}
+.videoes .card-body-height{
     min-height: 150px;
     padding: 30px 20px;
     border: none;
@@ -33,7 +26,7 @@ hr.line {
 }
 .videoes .card{border: none;}
 .videoes.card-img-top{border-radius: 10px;}
-.custom-card-title{
+.videoes .custom-card-title{
     font-weight: bolder;}
 /* }
 .videoes.card-img-top {width: 100%; box-sizing: border-box;}
@@ -41,6 +34,7 @@ hr.line {
 img:hover{
     transform: scale(1.1);
 } */
-.videoes .card{overflow: hidden;}
-.videoes .card img{transition: transform .2s; transition: .3s ease-in-out;}
-.videoes .card img:hover{transform: scalex(1.1); box-sizing: border-box; position: relative;}
+.videoes .card-img-top{height: 250px;width: 100%; overflow: hidden;}
+.videoes .card-img-top img{width: 100%;height: 100%;}
+.videoes .card-img-top img{transition: transform .2s; transition: .3s ease-in-out;}
+.videoes .card-img-top img:hover{transform: scale(1.2); box-sizing: border-box; position: relative;}

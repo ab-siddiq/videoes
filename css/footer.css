@@ -1,4 +1,5 @@
-* {
+
+footer {
     margin: 0;
     box-sizing: border-box;
     font-family: lato-regular;
@@ -14,12 +15,12 @@
     src: url('../fonts/Lato-Bold.ttf');
 }
 
-.custom-container {
+footer .custom-container {
     width: 90%;
     margin: auto;
 }
 
-.footer-top {
+footer .footer-top {
     background-color: #F5821F;
     position: relative;
     width: 85%;
@@ -31,17 +32,17 @@
 
 }
 
-.footer-top h2,
-.footer-top h5,
-.footer-top p {
+footer .footer-top h2,
+footer .footer-top h5,
+footer .footer-top p {
     color: white;
 }
 
-.footer-top h2 {
+footer .footer-top h2 {
     font-family: lato-bold;
 }
 
-.footer-bottom {
+footer .footer-bottom {
     background-color: #174082;
     margin-top: -400px;
     padding-top: 400px;
@@ -49,7 +50,7 @@
     position: relative;
 }
 
-.help {
+footer .help {
     background-color: #F5821F;
     display: inline-block;
     padding: 10px 15px;
@@ -60,7 +61,7 @@
     font-size: 15px;
 }
 
-.help-div {
+footer .help-div {
     margin-bottom: 50px;
     margin: auto;
     text-align: center;
@@ -69,18 +70,18 @@
     margin-bottom: -20px;
 }
 
-input[type=text] {
+footer input[type=text] {
     border-radius: 40px;
     background-color: #F5821F;
     margin-bottom: 20px;
     box-shadow: none;
 }
 
-.has-search .form-control {
+footer .has-search .form-control {
     padding-left: 2.375rem;
 }
 
-.has-search .form-control-feedback {
+footer .has-search .form-control-feedback {
     position: absolute;
     z-index: 2;
     display: block;
@@ -93,9 +94,9 @@ input[type=text] {
     color: #aaa;
 
 }
-.btn-top-text{font-size: 10px;}
+footer .btn-top-text{font-size: 10px;}
 
-input:hover, .form-control-feedback i:hover  {
+footer input:hover, .form-control-feedback i:hover  {
     
     border: 1px solid #F75A29;
 }
@@ -104,20 +105,20 @@ input:hover, .form-control-feedback i:hover  {
     color: #F75A29;
 } */
 
-.form-control:focus {
+footer .form-control:focus {
     background-color: white;
     box-shadow: none;
     border: 1px solid #F75A29;
 }
 
-.btn-style {
+footer .btn-style {
     border-radius: 40px;
     padding: 12px 30px;
     border: 1px solid white;
     color: white;
 }
 
-.btn-style:hover {
+footer .btn-style:hover {
     background-color: #B02A30;
     color: white;
 }
@@ -141,12 +142,12 @@ input:hover, .form-control-feedback i:hover  {
     border-radius: 50%;
 } */
 
-.footer-bottom {
+footer .footer-bottom {
     color: white;
 }
 
 
-.footer-bottom h4 {
+footer .footer-bottom h4 {
     border-bottom: 2px solid #45669B;
     margin-bottom: 10px;
     padding: 2px 0;
@@ -157,7 +158,7 @@ input:hover, .form-control-feedback i:hover  {
     padding-bottom: 12px;
 }
 
-.footer-bottom a {
+footer .footer-bottom a {
     font-size: 13px;
     font-family: lato-regular;
     line-height: 20px;
@@ -165,30 +166,30 @@ input:hover, .form-control-feedback i:hover  {
 }
 
 
-.footer-bottom ul {
+footer .footer-bottom ul {
     list-style: none;
 }
 
-.footer-bottom ul li a {
+footer .footer-bottom ul li a {
     text-decoration: none;
     color: white;
     display: inline-block;
     border-bottom: 1px;
 }
 
-.footer-bottom ul li a:hover {
+footer .footer-bottom ul li a:hover {
     color: #F57A4D;
 
     transition: .5s;
 }
 
-.social ul li {
+footer .social ul li {
     display: inline-block;
 }
 
 
 
-.copy-right {
+footer .copy-right {
     background-color: #F5821F;
     color: white;
     padding: 20px 0;
@@ -196,7 +197,7 @@ input:hover, .form-control-feedback i:hover  {
 
 
 
-.social-icon a {
+footer .social-icon a {
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -206,13 +207,13 @@ input:hover, .form-control-feedback i:hover  {
     padding-top: 8px;
     font-size: 15px;
 }
-.social-icon a:hover{
+footer .social-icon a:hover{
     border: 1px solid #F57A4D;
     font-size: 20px;
     transition: 2s ease-in-out;
 }
 /* .footer-bottom-laptop{display: block}  */
-.footer-bottom-mobile {
+footer .footer-bottom-mobile {
     display: none;
 }
 
@@ -223,11 +224,11 @@ input:hover, .form-control-feedback i:hover  {
 
 
 @media (max-width:1000px) {
-    .footer-bottom-laptop {
+   footer .footer-bottom-laptop {
         display: none;
     }
 
-    .footer-bottom-mobile {
+   footer .footer-bottom-mobile {
         display: inline-block;
     }
     /* .footer-bottom:last-child h4{border-bottom: none;} */
